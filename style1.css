@@ -1,0 +1,189 @@
+a{
+    text-decoration: none;
+    color:White;
+}
+
+.nav{
+    display:flex;
+    margin-left:80%;
+    font-size: 30px;
+    margin-top:-2%;
+    padding:40px;
+    /* width:30%; */
+}
+hr{
+    margin-left:2%;
+    height:25px;
+    margin-top:-2%;
+}
+.pic{
+    background: url(https://external-preview.redd.it/ed38Y6aXySWAESp8sYUVXKcqVOqRQyUnwOaKKfpfA_w.jpg?auto=webp&s=5060d871d362ab0781b5577ad49f33a2d9d22e6d);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:623px;
+    width:1354px;
+}
+.pic:hover{
+    background: url(https://wallpaperaccess.com/full/136008.jpg);
+    background-repeat: no-repeat;
+    height:623px;
+    width:1354px;
+    background-attachment: fixed;
+    background-size:cover;
+    animation:movepic 5s infinite; 
+}
+ @keyframes movepic{
+    0%{
+        background: url(https://wallpapercave.com/wp/wp2047778.jpg);
+        background-repeat: no-repeat;
+        height:623px;
+        width:1354px;
+        background-attachment: fixed;
+        background-size:cover;
+    }
+    25%{
+        background: url(https://wallpaperaccess.com/full/1431600.jpg);
+        background-repeat: no-repeat;
+        height:623px;
+        width:1354px;
+        background-attachment: fixed;
+        background-size:cover;
+    }
+    50%{
+        background: url(https://iso.500px.com/wp-content/uploads/2015/08/travel_cover-1500x1000.jpeg);
+        background-repeat: no-repeat;
+        height:623px;
+        width:1354px;
+        background-attachment: fixed;
+        background-size:cover;
+    }
+    70%{
+        background: url(https://media.cntraveler.com/photos/598339c9b7a86962e8e27c5d/master/pass/Paris_GettyImages-601763009.jpg);
+        background-repeat: no-repeat;
+        height:623px;
+        width:1354px;
+        background-attachment: fixed;
+        background-size:cover;
+    }
+    100%{
+        background: url(https://www.smartertravel.com/wp-content/uploads/2020/03/ST_ZoomBackground_Beach03.jpg);
+        background-repeat: no-repeat;
+        height:623px;
+        width:1354px;
+        background-attachment: fixed;
+        background-size:cover;
+    }
+}
+.text{
+    color:white;
+    font-size: 50px;
+    margin-left:2%;
+    margin-top:10%;
+    position: absolute;
+}
+.img{
+    background: url(https://www.etravel.com/explore/data/uploads/2018/09/Traveling-With-Friends.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100%;
+    width:99%;
+}
+.box{
+    Height:300px;
+    width:300px;
+    background-color:  rgba(255, 255, 255, 0.6);
+    margin-top:10%;
+    margin-left:39%;
+    border-radius: 25px;
+    z-index:-1;
+    position:fixed;
+   
+}
+.h{
+    position:absolute;
+     margin-top:15%;
+     margin-left:19%;
+     opacity:1;
+    
+}
+.big{
+    background: url(https://imagesvc.meredithcorp.io/v3/mm/image?q=85&c=sc&poi=face&w=1800&h=900&url=https:%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F28%2F2020%2F11%2F25%2Fantigua-barbuda-BESTPLACESJAN1120.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100%;
+    width:99%;
+    z-index: -1;
+}
+.su{
+    color:white;
+    font-size:70px;
+    position:fixed;
+    margin-top:7%;
+    margin-left:4%;
+}
+.g{
+    color:white;
+    font-size:70px;
+    position:fixed;
+    margin-top:19%;
+    margin-left:50%;
+}
+.s{
+    position:fixed;
+    height:105%;
+    width:200%;
+    margin-top:-2%;
+    margin-left:-2%;
+    background-size: cover;
+    background-color: black;
+    opacity:0.6;
+}
+.border{
+    position:fixed;
+    border: 2px solid transparent;
+    height:400px;
+    width:1000px;
+    margin-top: 5%;
+    margin-left:20%;
+}
+.t{
+    color:transparent;
+    transition:ease;
+    
+}
+.t:hover{
+    animation:movep 1s infinite; 
+}
+@keyframes movep{
+    0%{
+        opacity:0;
+    }
+    25%{
+        opacity:0.6;
+    }
+    100%{
+        opacity:1;
+    }
+}
+.pu{
+    background: url(https://www.farecompare.com/wp-content/uploads/2017/12/2018-Top-Travel-Destinations-Bangkok.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100%;
+    width:99%;
+}
+.f{
+    height:480px;
+    width:500px;
+    background: rgba(255, 255, 255, 0.6);
+    position:fixed;
+    margin-left:55%;
+    margin-top:2%;
+    border-radius: 25px;
+}
+.sign{
+    margin-left:5%;
+}
+.lll{
+    margin-right:4%;
+}

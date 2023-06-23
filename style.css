@@ -1,0 +1,419 @@
+.continents {
+    background-image: url("https://i.pinimg.com/originals/61/ba/c1/61bac18c3e23e155bb5f2a4c0ebb15c6.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+ }
+.North{
+    position:absolute;
+    margin-top:8%;
+    margin-left:1%;
+    color:black;
+}
+.South{
+    position:absolute;
+    margin-top:25%;
+    margin-left:11%;
+    color:black;
+}
+.Africa{
+    position:absolute;
+    margin-top:23%;
+    margin-left:42%;
+    color:black;
+}
+.Europe{
+    position:absolute;
+    margin-top:11%;
+    margin-left:37%;
+    color:black;
+}
+.Asia{
+    position:absolute;
+    margin-top:6%;
+    margin-left:69%;
+    position:black;
+}
+.Australia{
+    position:absolute;
+    margin-top:28.5%;
+    margin-left:71%;
+    color:black;
+}
+.Antartica{
+    position:absolute;
+    margin-top:40%;
+    margin-left:54%;
+    position:black;
+}
+.text{
+    position:absolute;
+    font-size: 50px;
+    font-family: 'Times New Roman';
+    margin-top:15%;
+    margin-left:5%;
+}
+#click{
+    font-size:30px;
+    font-family: 'Times New Roman';
+    color:black;
+    margin-top:21%;
+    margin-left:40%;
+    position:absolute;
+}
+a{
+    color: black;
+}
+/* .pic{
+    background: url("https://cdn.wallpapersafari.com/44/52/teVspd.jpg");
+    background-repeat: no-repeat;
+    height:620px;
+    width:1350px;
+    background-attachment: fixed;
+    background-size:cover;
+}
+.pic:hover{
+    background: url("https://wallpaperaccess.com/full/407993.jpg");
+    background-repeat: no-repeat;
+    height:620px;
+    width:1350px;
+    background-attachment: fixed;
+    background-size:cover;
+    animation:movepic 10s infinite; 
+}
+ @keyframes movepic{
+    0%{
+        background: url("https://wallpaperaccess.com/full/407993.jpg");
+        background-repeat: no-repeat;
+        height:620px;
+        width:1350px;
+        background-attachment: fixed;
+        background-size:cover;
+    }
+    25%{
+        background: url("https://wallpaperaccess.com/full/444333.jpg");
+        background-repeat: no-repeat;
+        height:620px;
+        width:1350px;
+        background-attachment: fixed;
+        background-size:cover;
+    }
+    50%{
+        background: url("https://www.ampagency.com/hs-fs/hubfs/flash/hero-images/desktop--2x/travel_hero-2x.jpg?width=11520&height=6480&name=travel_hero-2x.jpg");
+        background-repeat: no-repeat;
+        height:620px;
+        width:1350px;
+        background-attachment: fixed;
+        background-size:cover;
+    }
+    70%{
+        background: url("https://wallpapertag.com/wallpaper/full/5/e/f/141498-popular-travel-background-2560x1414.jpg");
+        background-repeat: no-repeat;
+        height:620px;
+        width:1350px;
+        background-attachment: fixed;
+        background-size:cover;
+    }
+    100%{
+        background: url("https://wallpapertag.com/wallpaper/full/5/c/2/141471-gorgerous-travel-background-2560x1440-for-4k.jpg");
+        background-repeat: no-repeat;
+        height:620px;
+        width:1350px;
+        background-attachment: fixed;
+        background-size:cover;
+    }
+} */
+.row {
+    display: flex;
+}
+  
+.column {
+    flex:3%;
+    /* padding:5px; */
+    width:10px;
+    /* justify-content: space-evenly; */
+}
+.column{
+    transition:0.3s;
+}
+.column:hover{
+    scale:1.1;
+}
+.all{
+    border: 6px solid white;
+    padding: 10px;
+    width: 1100px;
+    margin:auto;
+    margin-top:9%;
+    margin-bottom:-10%;
+}
+.all1{
+    border: 6px solid black;
+    padding: 10px;
+    margin:auto;
+    width: 1100px;
+    margin-top:15%;
+}
+.image{
+    position:absolute;
+    margin-right:30%;
+    height:-90%;
+    width:-90%;
+    
+}
+.p{
+    position:absolute;
+    margin-right: 0%;
+    margin-left:60%;
+}
+body *{
+font-family: 'Roboto Slab', serif;
+}
+.t{
+    
+    height:500px;
+    width:100%;
+}
+.in{
+    font-size: 27px;
+    color:white;
+    margin-top: -23%;
+    margin-left: 26%;
+}
+.lin{
+    margin-top:16%;
+    font-family:Cambria;
+    font-size: 20px;
+}
+.taj{
+    height:300px;
+    width:600px;
+    border:2px solid white;
+    box-shadow: 1px 1px 1px 1px black;
+    margin-left:5%;
+}
+.taj2{
+    margin-top:17%;
+    margin-left:10%;
+}
+.taj1{
+    height:250px;
+    width:500px;
+    border:2px solid white;
+    box-shadow: 1px 1px 1px 1px black;
+    margin-left:5%;
+}
+.r{
+    border:5px solid black;
+    background-color: white;
+    height:500px;
+    width:500px;
+    border-radius: 25px 25px 25px 25px;
+    position: fixed;
+    margin-left:61%;
+    margin-top:3%;
+}
+.ant{
+    border:5px solid transparent;
+    height:100%;
+    width:60%;
+}
+.o{
+    height:60px;
+    width:100%;
+    background-color:rgb(13, 216, 216);
+    position: fixed;
+    margin-top:-0.5%;
+    margin-left:-1%;
+}
+.hi{
+    margin-left:5%;
+    position: fixed;
+    margin-top:-3%;
+    
+}
+.ho{
+    margin-top:1%;
+  margin-left:50.5%;
+  color:black;
+  position:fixed;
+}
+.ho:hover{
+   color:white;
+   border:2px solid  black;
+   padding:3px;
+}
+.hoo{
+    margin-top:1%;
+   margin-left:59%;
+   color:black;
+   position:fixed;
+   
+}
+.hoo:hover{
+    color:white;
+    border:2px solid  black;
+   padding:3px;
+ }
+.hoooo{
+    margin-top:1%;
+    margin-left:72%;
+    position:fixed;
+    
+}
+.hoooo:hover{
+    color:white;
+    border:2px solid  black;
+   padding:3px;
+}
+.pi{
+    margin-top:1%;
+    margin-left:81%;
+    color:black;
+    position:fixed;
+ }
+.pi:hover{
+    color:white;
+    border:2px solid  black;
+   padding:3px;
+ }
+ .ab{
+     margin-top:1%;
+     margin-left:91%;
+     color:black;
+     position:fixed;
+ }
+ .ab:hover{
+    color:white;
+    border:2px solid  black;
+   padding:3px;
+ }
+.cent{
+    height:fit-content;
+    width:1000px;
+    border:2px solid transparent;
+    padding:5px;
+    margin:auto;
+    box-shadow: 2px 2px 2px 2px whitesmoke;
+}
+.rr{
+    display:flex;
+    flex:33.3%;
+}
+.rear{
+    font-size:20px;
+    font-family:cambria;
+}
+a{
+    text-decoration: none;
+}
+.pla{
+    display:flex;
+    justify-content:space-evenly;
+    height:450px;
+    width:100%;
+    background-color:rgb(203, 231, 231);
+    border-radius: 25px;
+    box-shadow: 1px 1px 1px 1px grey;
+   
+}
+.p1{
+    margin-top:7%;
+    opacity:0.4;
+    border-radius:25px;
+    border:2px solid  black;
+}
+.p1:hover{
+    opacity:1;
+}
+.p2{
+    margin-top:1%;
+    font-size:40px;
+    margin-left:43%;
+    font-family:Cambria;
+    position:absolute;
+    color:black;
+}
+.ved{
+    height:400px;
+    width:650px;
+    margin-left:50%;
+    margin-top:-790px;
+    /* border:2px solid black; */
+}
+.contact{
+    height:500px;
+    width:100%;
+    background-color:rgb(13, 216, 216);
+}
+.phone{
+    font-size:20px;
+    margin-left:42%;
+    margin-top:-20%;
+}
+.countries{
+    font-size:25px;
+    margin-left:80%;
+    margin-top:-15%;
+}
+        /* body {margin:25px;} */
+        
+        div.polaroid {
+          width: 80%;
+          height:100%;
+          background-color: white;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          margin-bottom: 25px;
+          margin: auto;
+        }
+        
+        div.container {
+          text-align: center;
+          padding: 10px 20px;
+        }
+        .polaroid{
+            transition: 0.3s;
+         }
+        .polaroid:hover
+        {
+           scale:1.1;
+        }
+        #myVideo {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            margin-bottom:-100px;
+            background-size:cover;
+          }
+          .thanu{
+            color:white;
+          }
+          .polaroid1{
+            width: 80%;
+            height:100%;
+            background-color: white;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            margin-bottom: 25px;
+            display:flex;
+            margin: auto;
+          }
+          div.container1 {
+            text-align: center;
+            padding: 10px 20px;
+            /* width:300px;
+            height:600px; */
+          }
+          .polaroid1{
+            transition: 0.3s;
+         }
+        .polaroid1:hover
+        {
+           scale:1.1;
+        }
+        .rear1{
+            font-size:20px;
+            font-family:cambria;
+            margin-top:-65px;
+        }
